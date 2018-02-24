@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxCat", "BoxCat\BoxCat.csproj", "{979ADF29-F1F5-4A67-B3D3-621E4FCB819F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{979ADF29-F1F5-4A67-B3D3-621E4FCB819F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979ADF29-F1F5-4A67-B3D3-621E4FCB819F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979ADF29-F1F5-4A67-B3D3-621E4FCB819F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979ADF29-F1F5-4A67-B3D3-621E4FCB819F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B4685C3-7F5E-4D9E-8DAE-B62822E5A6C9}
+	EndGlobalSection
+EndGlobal
