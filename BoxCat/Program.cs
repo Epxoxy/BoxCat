@@ -9,10 +9,11 @@ namespace BoxCat {
             var I = new Person();
             var note = new Note();
 
-            for(int n = 0; n < 1000000; n++) {
+            Console.WriteLine("Working....");
+            for (int n = 0; n < 1000000; n++) {
 
                 //拿东西,需要箱子,放射物,猫
-                //declear variables, we need box, radioactive substance and cat.
+                //declare variables, we need box, radioactive substance and cat.
                 var box = new Box();
                 var substance = new RadioactiveSubstance();
                 var cat = new Cat();
@@ -27,7 +28,6 @@ namespace BoxCat {
                 //recording the result of this time.
                 I.open(box).find<Cat>().observe(theCat => theCat?.isAlive().LastOrDefault())
                     .then(theRecord => I.write(theRecord)).to(note);
-                foreach(var obj in box.ReadonlyContent) {
             }
             var alive = note.Records.Count(r => r.Value is bool && (bool)r.Value);
             var died = note.Records.Count - alive;
