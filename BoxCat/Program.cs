@@ -27,10 +27,7 @@ namespace BoxCat {
                 //recording the result of this time.
                 I.open(box).find<Cat>().observe(theCat => theCat?.isAlive().LastOrDefault())
                     .then(theRecord => I.write(theRecord)).to(note);
-
                 foreach(var obj in box.ReadonlyContent) {
-                    Console.WriteLine(obj);
-                }
             }
             var alive = note.Records.Count(r => r.Value is bool && (bool)r.Value);
             var died = note.Records.Count - alive;
